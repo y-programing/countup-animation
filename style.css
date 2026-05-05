@@ -1,0 +1,38 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.countUp {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.countUp__item {
+  text-align: center;
+  font-weight: bold;
+}
+
+.countUp__ttl {
+  letter-spacing: 0.1em;
+}
+
+.countUp__num {
+  font-weight: bold;
+  color: #006F86;
+  font-size: 3em;
+}
+
+.countUp__unit {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .countUp {
+        display: block;
+        margin: 20px 0;
+    }
+}
