@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const delay = 400; // ← 最初の0を見せたい時間(ms)
-  const dur = 3000; // ← カウントアップにかかる時間(ms)
+  const delay = 400;
+  const dur = 3000;
 
   const countUp = (el) => {
     const to = +el.dataset.to || 0;
